@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "MyChurchApp",
+    "name": "목장교회 모임 보고서",
     "slug": "MyChurchApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,24 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.daiitsuki.MyChurchApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "efebc3a0-2454-47ff-b443-def1692284f2"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/efebc3a0-2454-47ff-b443-def1692284f2",
+      "checkAutomatically": "ON_LOAD"
     }
   }
 }
